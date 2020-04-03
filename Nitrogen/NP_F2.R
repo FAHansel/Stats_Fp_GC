@@ -22,11 +22,11 @@ comparison<-kruskal(dad_F2$C8,dad_F2$F2,group=TRUE);comparison
 
 ###IN EACH F1 LEVEL
 
-dad_L1=with(data, subset(data,data$F1=="IVA10"))
+dad_L1=with(data, subset(data,data$F1=="EC22"))
 kruskal.test(C8~F2, data = dad_L1)
 comparison<-kruskal(dad_L1$C8,dad_L1$F2,group=TRUE);comparison
 
-dad_L2=with(data, subset(data,data$F1=="IVA34"))
+dad_L2=with(data, subset(data,data$F1=="EC40"))
 kruskal.test(C8~F2, data = dad_L2)
 comparison<-kruskal(dad_L2$C8,dad_L2$F2,group=TRUE);comparison
 
