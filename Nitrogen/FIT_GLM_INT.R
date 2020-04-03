@@ -18,19 +18,19 @@ head(data);names(data);dim(data); str(data);summary(data);
 
 levels(data$F1)
 
-###IVA10
+###EC22
 
-mIVA10 = glm(C125~poly(F2,degree=3),family=Gamma (link = "identity"), data=subset(data, F1==levels(data$F1)[1]))
-lapply(list(mIVA10), summary)
-lapply(list(mIVA10), coef)
-xyplot(C125~F2, groups=F1, subset(data,data$F1=="IVA10"), auto.key=TRUE, jitter.x=TRUE, type=c("p","a"))
+mEC22 = glm(C125~poly(F2,degree=3),family=Gamma (link = "identity"), data=subset(data, F1==levels(data$F1)[1]))
+lapply(list(mEC22), summary)
+lapply(list(mEC22), coef)
+xyplot(C125~F2, groups=F1, subset(data,data$F1=="EC22"), auto.key=TRUE, jitter.x=TRUE, type=c("p","a"))
 
 ###ORDER
 
-mIVA10 = glm(C125~F2+I(F2^2)+I(F2^3),family=Gamma (link = "identity"), data=subset(data, F1==levels(data$F1)[1]))
-lapply(list(mIVA10), summary)
-lapply(list(mIVA10), coef)
-SQEm1=summary(mIVA10)$deviance^2
+mEC22 = glm(C125~F2+I(F2^2)+I(F2^3),family=Gamma (link = "identity"), data=subset(data, F1==levels(data$F1)[1]))
+lapply(list(mEC22), summary)
+lapply(list(mEC22), coef)
+SQEm1=summary(mEC22)$deviance^2
 SQEm1
 SQTm1=var(data$C125)*(length(data$C125)-1)
 SQTm1
@@ -38,31 +38,22 @@ SQEm1/SQTm1
 R2=1-SQEm1/SQTm1
 R2
 
-###IVA34
+###EC40
 
-mIVA34 = glm(C125~poly(F2,degree=3),family=Gamma (link = "identity"), data=subset(data, F1==levels(data$F1)[2]))
-lapply(list(mIVA34), summary)
-lapply(list(mIVA34), coef)
-xyplot(C125~F2, groups=F1, subset(data,data$F1=="IVA34"), auto.key=TRUE, jitter.x=TRUE, type=c("p","a"))
+mEC40 = glm(C125~poly(F2,degree=3),family=Gamma (link = "identity"), data=subset(data, F1==levels(data$F1)[2]))
+lapply(list(mEC40), summary)
+lapply(list(mEC40), coef)
+xyplot(C125~F2, groups=F1, subset(data,data$F1=="EC40"), auto.key=TRUE, jitter.x=TRUE, type=c("p","a"))
 
 ###ORDER
 
-mIVA34 = glm(C125~F2,family=Gamma (link = "identity"), data=subset(data, F1==levels(data$F1)[1]))
-lapply(list(mIVA34), summary)
-lapply(list(mIVA34), coef)
-SQEm1=summary(mIVA34)$deviance^2
+mEC40 = glm(C125~F2,family=Gamma (link = "identity"), data=subset(data, F1==levels(data$F1)[1]))
+lapply(list(mEC40), summary)
+lapply(list(mEC40), coef)
+SQEm1=summary(mEC40)$deviance^2
 SQEm1
 SQTm1=var(data$C125)*(length(data$C125)-1)
 SQTm1
 SQEm1/SQTm1
 R2=1-SQEm1/SQTm1
 R2
-
-
-
-
-
-
-
-
-
