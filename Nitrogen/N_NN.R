@@ -35,4 +35,4 @@ shapiro.test(data$C155)
 
 ###C28 SUBSET DATA "IVA34"
 
-shapiro.test(subset(data,data$F1=="IVA34")$C28)
+shapiro.test(subset(data,data$F1=="EC40")$C28)
