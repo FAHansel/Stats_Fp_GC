@@ -44,7 +44,6 @@ par(mfrow=c(2,2));plot(m_C29)
 m_C125=glm(C125~F1*poly(F2,degree=3),family=Gamma (link = "identity"),data=data)
 summary(m_C125)
 xyplot(C125~F2, groups=F1, data=data, auto.key=TRUE, jitter.x=TRUE, type=c("p","a"))
-
 par(mfrow=c(2,2));plot(m_C125)
 hnp(m_C125, pch = 20, cex = 1.2)
 
