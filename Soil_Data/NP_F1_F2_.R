@@ -1,4 +1,4 @@
-###PACKAGE TO OPEN THE EXCEL FILE AND RUN THE NP INTERACRION COMPARISON
+###PACKAGE TO OPEN THE EXCEL FILE AND RUN THE NP COMPARISON WITH F1 AND F2 SIG.
 
 require(stats);require(xlsx);require(multcomp);require(lattice);require(effects);require(hnp);library(agricolae)
 
