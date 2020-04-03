@@ -10,8 +10,6 @@ data = read.xlsx('R_FILE.xlsx',sheetIndex=3);head(data)
 
 head(data);names(data);dim(data); str(data); summary(data);
 
-###RUN THE LM STATS
-
 ###SEE INTO THE LEVELS
 
 ###F1
