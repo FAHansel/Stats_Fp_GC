@@ -15,7 +15,6 @@ head(data);names(data);dim(data); str(data);summary(data);
 with(data,fat2.crd(F1,F2,C18, quali = c(TRUE,FALSE)))
 m_C18= lm(C18~F1*F2, data=data);par(mfrow=c(2,2));plot(m_C18)
 
-
 with(data,fat2.crd(F1,F2,C132, quali = c(TRUE,FALSE))) 
 m_C132= lm(C132~F1*F2, data=data);par(mfrow=c(2,2));plot(m_C132)
 
