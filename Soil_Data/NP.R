@@ -14,7 +14,6 @@ head(data);names(data);dim(data); str(data);summary(data);
 
 kruskal.test(C5~F1, data = data)
 kruskal.test(C5~F2, data = data)
-kruskal.test(C5~F2,subset(data,data$F1=="tpi")) ###CAN ALSO BE CHECK THE SUBSET DATA
 
 kruskal.test(C15~F1, data = data)
 kruskal.test(C15~F2, data = data)
