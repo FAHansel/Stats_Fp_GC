@@ -17,7 +17,6 @@ head(data);names(data);dim(data); str(data);summary(data);
 
 data$ab= interaction(data$F1, data$F2)
 m_C114=glm(C114~ab,family=Gamma, data=data)
-anova(m_C114,test="Chisq"); 
 par(mfrow=c(2,2));plot(m_C114)
 comp= summary(glht(m_C114, linfct=mcp(ab="Tukey")),test=adjusted(type="single-step"))
 comp
