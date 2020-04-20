@@ -15,7 +15,6 @@ head(data);names(data);dim(data); str(data);summary(data)
 ###NO SIGNIFICANT VARIABLE - BELOW IS ONLY AN EXAMPLE
 
 m_C17=lm(C17~F1,data=data)
-anova(m_C17)
 par(mfrow=c(2,2));plot(m_C17)
 tukey <- HSD.test(y = data$C17,
                   trt = data$F1,
