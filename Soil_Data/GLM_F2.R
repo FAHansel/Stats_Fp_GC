@@ -15,7 +15,6 @@ head(data);names(data);dim(data); str(data);summary(data);
 ###C13
 
 m_C13=glm(C13~F2,family=Gamma,data=data) 
-anova(m_C13,test="Chisq"); 
 par(mfrow=c(2,2));plot(m_C13)
 comp= summary(glht(m_C13, linfct=mcp(F2="Tukey")), test=adjusted(type="single-step"))
 comp
