@@ -17,7 +17,6 @@ summary(data);
 
 data$ab= interaction(data$F1, data$F2)
 m_C17=lm(C17~ab,data=data)
-anova(m_C17)
 par(mfrow=c(2,2));plot(m_C17)
 tukey <- HSD.test(y = data$C17,
                   trt = data$ab,
