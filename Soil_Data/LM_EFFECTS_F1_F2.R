@@ -15,7 +15,6 @@ head(data);names(data);dim(data); str(data); summary(data);
 ###F1
 
 m_C17=lm(C17~F1,subset(data,data$F2=="L1"))
-anova(m_C17) 
 par(mfrow=c(2,2));plot(m_C17)
 tukey <- HSD.test(y = subset(data,data$F2=="L1")$C17,
                   trt = subset(data,data$F2=="L1")$F1,
@@ -24,7 +23,6 @@ tukey <- HSD.test(y = subset(data,data$F2=="L1")$C17,
                   console = TRUE)
 
 m_C17=lm(C17~F1,subset(data,data$F2=="L2"))
-anova(m_C17) 
 par(mfrow=c(2,2));plot(m_C17)
 tukey <- HSD.test(y = subset(data,data$F2=="L2")$C17,
                   trt = subset(data,data$F2=="L2")$F1,
@@ -34,7 +32,6 @@ tukey <- HSD.test(y = subset(data,data$F2=="L2")$C17,
 
 
 m_C17=lm(C17~F1,subset(data,data$F2=="L3"))
-anova(m_C17) 
 par(mfrow=c(2,2));plot(m_C17)
 tukey <- HSD.test(y = subset(data,data$F2=="L3")$C17,
                   trt = subset(data,data$F2=="L3")$F1,
@@ -45,7 +42,6 @@ tukey <- HSD.test(y = subset(data,data$F2=="L3")$C17,
 ###F2
 
 m_C17=lm(C17~F2,subset(data,data$F1=="L1"))
-anova(m_C17) 
 par(mfrow=c(2,2));plot(m_C17)
 tukey <- HSD.test(y = subset(data,data$F1=="L1")$C17,
                   trt = subset(data,data$F1=="L1")$F2,
@@ -54,7 +50,6 @@ tukey <- HSD.test(y = subset(data,data$F1=="L1")$C17,
                   console = TRUE)
 
 m_C17=lm(C17~F2,subset(data,data$F1=="L2"))
-anova(m_C17) 
 par(mfrow=c(2,2));plot(m_C17)
 tukey <- HSD.test(y = subset(data,data$F1=="L2")$C17,
                   trt = subset(data,data$F1=="L2")$F2,
