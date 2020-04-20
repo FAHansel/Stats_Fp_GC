@@ -15,7 +15,6 @@ head(data);names(data);dim(data); str(data);summary(data);
 ###C8
 
 m_C8=glm(C8~F1,family=Gamma,data=data) 
-anova(m_C8,test="Chisq"); 
 par(mfrow=c(2,2));plot(m_C8)
 comp= summary(glht(m_C8, linfct=mcp(F1="Tukey")), test=adjusted(type="single-step"))
 comp
@@ -24,7 +23,6 @@ let=cld(comp,decreasing = TRUE);let
 ###C13
 
 m_C13=glm(C13~F1,family=Gamma,data=data) 
-anova(m_C13,test="Chisq"); 
 par(mfrow=c(2,2));plot(m_C13)
 comp= summary(glht(m_C13, linfct=mcp(F1="Tukey")), test=adjusted(type="single-step"))
 comp
