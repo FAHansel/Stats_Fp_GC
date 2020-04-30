@@ -51,7 +51,7 @@ THE SCRIPT FILE NAMES AND SHEETS HAVE THE SAME NAME.
 
 OBS: When analysing the main effects (F1 and F2) separately with comparisons within the levels in the LM or GLM types of response,
 the script files “LM_EFFECTS” and “GLM_EFFECTS” do not provide the stats of F2 as whole.
-Thus, we can only built the sheets, 4_LM_INT, 5_LM_F1, 9_GLM_INT, and 10_GLM_F1.
+Thus, we can only filled the sheets, 4_LM_INT, 5_LM_F1, 9_GLM_INT, and 10_GLM_F1 with the variables.
 
 …
 
