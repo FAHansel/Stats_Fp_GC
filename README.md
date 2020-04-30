@@ -21,12 +21,12 @@ R_FILE was divided in sheets.
 E.g., 
 
 Sheet_1
-1_Details
-Main effects and compound name abbreviations
+
+Named: 1_Details - Main effects and compound name abbreviations
 
 Sheet_2
-2_N_NN
-All dataset and how to build your table to scripts work
+
+Named: 2_N_NN - All dataset and how to build your table to scripts work
 
 …
 
