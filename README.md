@@ -37,13 +37,13 @@ Thus, the R_script files were saved separately. In other words, each R script fi
 E.g., after running the normality script, file name “N_NN”, two new sheets were built: 3_LM and 7_NN
 
 In the LM types of response the scripts “LM” or “LM_EFFECTS” were used,
-and according to the results the following sheets are filed with the variables: 4_LM_INT, 5_LM_F1 and 6_LM_F2
+and according to the results the following sheets are filled with the variables: 4_LM_INT, 5_LM_F1 and 6_LM_F2
 
 In the sheet 7_NN the script “GLM” were used,
 and looking at the results using the command “plot(glm object)”
-the sheets 8_GLM, 9_GLM_INT, 10_GLM_F1, and 11_GLM_F2 and 12_NP were built.
+the sheets 8_GLM, 9_GLM_INT, 10_GLM_F1, and 11_GLM_F2 and 12_NP were filled with the variables.
 
-In the sheet 12_NP using the script “NP” the following sheets were built:
+In the sheet 12_NP using the script “NP” the following sheets were filled with the variables:
 13_NP_F1_F2, 14_NP_F1 and 15_NP_F2.
 
 The post hoc test scripts run in their specific sheet.
