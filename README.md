@@ -34,9 +34,7 @@ After running the stats the subsequent sheets were filled according to the resul
 
 Thus, the R_script files were saved separately. In other words, each R script file runs specifically in one excel sheet
 
-E.g., after running the normality script, file name “N_NN”, two new sheets were built.
-3_LM
-7_NN
+E.g., after running the normality script, file name “N_NN”, two new sheets were built: 3_LM and 7_NN
 
 In the LM types of response the scripts “LM” or “LM_EFFECTS” were used,
 and according to the results the following sheets are filed with the variables: 4_LM_INT, 5_LM_F1 and 6_LM_F2
