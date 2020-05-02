@@ -23,7 +23,7 @@ Repository files are divided by experiments.
 
 ## Usage instructions
 
-The excel “R_FILE.xlsx” is the template that was designed as a explanation of how our dataset was built to run the R scripts. Therefore any external users who want to use the code detailed in this repository are recommended to borrow the structure from the excel file and build their own "R_FILE.xlsx".
+The excel “R_FILE.xlsx” is the template that was designed as an explanation of how our dataset was built to run the R scripts. Therefore any external users who want to use the code detailed in this repository are recommended to borrow the structure from the excel file and build their own "R_FILE.xlsx".
 
 ### Input file
 
