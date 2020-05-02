@@ -4,14 +4,14 @@
 
 All variables in this repository were statistically tested using R and Rstudio (Version 1.1.453 – © 2009-2018 RStudio, Inc.). The peformed tests are a dependency of the packages: stats, xlsx , multcomp, lattice, agricolae, hnp, ExpDes  and, effects.
 
-## experiments
+## Experiments
 
 Repository files are divided by experiments.
 
 1.	Nitrogen
 1.	Soil_data
 
-YOU CAN USE THE FLOWCHART PROVIDE AS GUIDE (see also attached PDF for an extra copy)
+**YOU CAN USE THE FLOWCHART PROVIDE AS GUIDE** *(see also attached PDF for an extra copy)*
 
 ### Nitrogen
 
@@ -25,7 +25,8 @@ YOU CAN USE THE FLOWCHART PROVIDE AS GUIDE (see also attached PDF for an extra c
 
 Excel “R_FILE” is how our dataset was built to run the R scripts
 
-R_FILE was divided in sheets, e.g., 
+R_FILE.xlsx was divided in sheets, e.g., 
+
 
 Sheet_1
 
@@ -35,11 +36,12 @@ Sheet_2
 
 Named: 2_N_NN - All dataset and how to build your table to scripts work
 
+
 After running the stats the subsequent sheets were filled according to the results.
 
 Thus, the R_script files were saved separately. In other words, each R script file runs specifically in one excel sheet
 
-E.g., after running the normality script, file name “N_NN”, two new sheets were built: 3_LM and 7_NN
+e.g., after running the normality script, file name “N_NN”, two new sheets were built: 3_LM and 7_NN
 
 In the LM types of response the scripts “LM” or “LM_EFFECTS” were used,
 and according to the results the following sheets are filled with the variables: 4_LM_INT, 5_LM_F1 and 6_LM_F2
