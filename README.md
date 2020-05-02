@@ -1,8 +1,8 @@
 # Stats_Fp_GC
 
-*Stats_Fp_GC is a repository that aims to provide tools in order to comprehensively apply univariate statistical analysis of gas chromatography – mass spectrometry fingerprint analyses*
+*Stats_Fp_GC is a repository that aims to provide tools in order to comprehensively apply univariate statistical analysis to gas chromatography – mass spectrometry fingerprint datasets*
 
-All variables in this repository were statistically tested using R and Rstudio (Version 1.1.453 – © 2009-2018 RStudio, Inc.). The peformed tests are a dependency of the packages: stats, xlsx , multcomp, lattice, agricolae, hnp, ExpDes  and, effects.
+All response variables provided in this repository were statistically tested using R and Rstudio (Version 1.1.453 – © 2009-2018 RStudio, Inc.). The peformed tests are a dependency of the packages: "stats", "xlsx", "multcomp", "lattice", "agricolae", "hnp", "ExpDes" and, "effects".
 
 ## Experiments
 
@@ -11,7 +11,7 @@ Repository files are divided by experiments.
 1.	Nitrogen
 1.	Soil_data
 
-**YOU CAN USE THE FOLLOWING FLOWCHART AS GUIDE** *(see also attached PDF for an extra copy)*
+**YOU CAN USE THE FOLLOWING FLOWCHART AS GUIDE** *(see also attached PDFs for an extra copy)*
 
 ### Nitrogen
 
@@ -25,6 +25,8 @@ Repository files are divided by experiments.
 
 The excel “R_FILE.xlsx” is the template that was designed as a explanation of how our dataset was built to run the R scripts. Therefore any external users who want to use the code detailed in this repository are recommended to borrow the structure from the excel file and build their own "R_FILE.xlsx".
 
+### Input file
+
 R_FILE.xlsx was divided in sheets, e.g., 
 
 * Sheet_1
@@ -35,6 +37,7 @@ Named: 1_Details - Main effects and compound name abbreviations
 
 Named: 2_N_NN - All dataset and how to build your table to scripts work
 
+### Analyses outputs
 
 After running the stats the subsequent sheets were filled according to the results. Thus, the R_script files were saved separately. 
 
