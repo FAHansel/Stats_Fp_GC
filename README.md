@@ -1,16 +1,17 @@
 # Stats_Fp_GC
 
-Univariate statistical analysis of gas chromatography – mass spectrometry fingerprint analyses
+**Univariate statistical analysis of gas chromatography – mass spectrometry fingerprint analyses**
 
-The variables were statistically tested using R and Rstudio (Version 1.1.453 – © 2009-2018 RStudio, Inc.).
-
-The packages: stats, xlsx , multcomp, lattice, agricolae, hnp, ExpDes  and, effects.
+All variables in this repository were statistically tested using R and Rstudio (Version 1.1.453 – © 2009-2018 RStudio, Inc.). The peformed tests are a dependency of the packages: stats, xlsx , multcomp, lattice, agricolae, hnp, ExpDes  and, effects.
 
 Repository files are divided by experiments.
-1)	Nitrogen
-2)	Soil_data
+
+1.	Nitrogen
+1.	Soil_data
 
 YOU CAN USE THE FLOWCHART PROVIDE IN PDF FORMAT AS GUIDE.
+
+![N_flowchart](Images/N_flowchart.PNG)
 
 …
 
