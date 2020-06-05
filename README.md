@@ -37,6 +37,9 @@ Named: 1_Details - Main effects and compound name abbreviations
 
 Named: 2_N_NN - All dataset and how to build your table to scripts work
 
+*Note:* the raw data were used for statistical treatment, in case of transformed data (e.g.
+log10) the same criteria presented in figure 2 (paper) must be followed after transformation.
+
 ### Analyses outputs
 
 After running the stats the subsequent sheets were filled according to the results. Thus, the R_script files were saved separately. 
