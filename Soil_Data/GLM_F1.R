@@ -27,3 +27,11 @@ par(mfrow=c(2,2));plot(m_C13)
 comp= summary(glht(m_C13, linfct=mcp(F1="Tukey")), test=adjusted(type="single-step"))
 comp
 let=cld(comp,decreasing = TRUE);let
+
+###C53
+
+m_C53=glm(C53~F1,family=Gamma,data=data) 
+par(mfrow=c(2,2));plot(m_C53)
+comp= summary(glht(m_C53, linfct=mcp(F1="Tukey")), test=adjusted(type="single-step"))
+comp
+let=cld(comp,decreasing = TRUE);let
