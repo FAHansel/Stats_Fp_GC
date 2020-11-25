@@ -2,6 +2,11 @@
 
 *Stats_Fp_GC is a repository that aims to provide tools in order to comprehensively apply univariate statistical analysis to gas chromatography – mass spectrometry fingerprint datasets*
 
+
+Any use for publication purposes must be properly acknowledged by citing the following:
+Melo, TM;  Franciscon, F; Brown, G, Kopka, J; Martinez-Seidel, F; Cunha, L; Madureira, LAS; TPI Network, Hansel, FA. https://github.com/FAHansel/Stats_Fp_GC.
+
+
 All response variables provided in this repository were statistically tested using R and Rstudio (Version 1.1.453 – © 2009-2018 RStudio, Inc.). The peformed tests are a dependency of the packages: "stats", "xlsx", "multcomp", "lattice", "agricolae", "hnp", "ExpDes" and, "effects".
 
 ## Experiments
