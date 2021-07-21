@@ -30,9 +30,5 @@ shapiro.test(data$C52)
 
 shapiro.test(data$C114)
 
-###C5 SUBSET DATA "TPI"
-
-shapiro.test(subset(data,data$F1=="tpi")$C5)
-
 
 
