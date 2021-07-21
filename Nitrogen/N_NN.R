@@ -31,8 +31,3 @@ shapiro.test(data$C125)
 shapiro.test(data$C132)
 
 shapiro.test(data$C155)
-
-
-###C28 SUBSET DATA "IVA34"
-
-shapiro.test(subset(data,data$F1=="EC40")$C28)
